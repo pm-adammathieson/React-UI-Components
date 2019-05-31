@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HCContent() {
   return (
-    <div>
+    <div className="top-cont">
       <p>
         Let's Learn React by building simple interfaces 
         with components. Don't try to overthink it, keep it

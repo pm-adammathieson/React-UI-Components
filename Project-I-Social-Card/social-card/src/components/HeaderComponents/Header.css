@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+
+.container {
+    display: flex;
+}
+
+.header-content {
+    width: 85%;
+    border: 1px solid blue;
+}
+
+.img-container {
+    max-width: 14%;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+.header1 {
+    font-size: 1.2rem;
+}
+
+.header-banner {
+    display: flex;
+    align-items: baseline;
+}
+
+.items {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    padding-left: 1%;
+}
+
+.samething {
+    text-decoration: none;
+    color: #9d9ea0;
+    padding: 0 1% 0 1%;
+}
+
+.top-cont p {
+    margin-block-start: 0;
+}
+

@@ -6,7 +6,7 @@ import HCLogo from './HCLogo'
 
 export default function HeaderContainer() {
     return (
-        <div>
+        <div className="container">
             <HCLogo />
             <HeaderContent />
         </div>

@@ -8,7 +8,7 @@ import HCContent from './HCContent'
 
 export default function HeaderContent() {
     return (
-        <div>
+        <div className="header-content">
             <HCBanner />
             <HCContent />
         </div>

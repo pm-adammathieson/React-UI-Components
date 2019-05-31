@@ -1,1 +1,8 @@
 /* All styles for your Card Components live here */
+
+
+.banner-img {
+    max-width: 85%;
+    float: right;
+    
+}
