@@ -3,6 +3,8 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 .app {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   max-width: 800px;
 }

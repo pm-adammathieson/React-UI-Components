@@ -4,13 +4,8 @@
     display: flex;
 }
 
-.header-content {
-    width: 85%;
-    border: 1px solid blue;
-}
-
 .img-container {
-    max-width: 14%;
+    max-width: 10%;
 }
 
 .logo {
@@ -18,7 +13,7 @@
 }
 
 .header1 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .header-banner {
@@ -28,12 +23,12 @@
 
 .items {
     display: flex;
-    flex-wrap: nowrap;
     align-items: baseline;
     padding-left: 1%;
 }
 
 .samething {
+    font-size: .9rem;
     text-decoration: none;
     color: #9d9ea0;
     padding: 0 1% 0 1%;
