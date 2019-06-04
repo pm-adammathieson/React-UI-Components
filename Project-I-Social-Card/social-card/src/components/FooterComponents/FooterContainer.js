@@ -6,15 +6,27 @@ import { faComment, faSyncAlt, faHeart, faEnvelope } from '@fortawesome/free-sol
 
 
 
-export default function FooterContainer() {
-  return (
+class FooterContainer extends React.Component {
+  state = {
+    sync: '1',
+    like: '1'
+  }
+
+  render() {
+    return (
     <div className="foot-cont">
-        <div className="inner-foot-cont">
+        {/* <div className="inner-foot-cont">
         <FontAwesomeIcon className="icon" icon={faComment} />
-        <FontAwesomeIcon className="icon" icon={faSyncAlt} />
+        <FontAwesomeIcon icon={faSyncAlt} />
+        <div className="display-box">{this.state.sync}</div>
         <FontAwesomeIcon className="icon" icon={faHeart} />
-        <FontAwesomeIcon className="icon" icon={faEnvelope} />
-      </div>
+        <div className="display-box">{this.state.like}</div>
+        <FontAwesomeIcon className="icon" icon={faEnvelope} /> */}
+        <i class="fas fa-comment"></i>
+      {/* </div> */}
     </div>
-  )
+    )
+  }
 }
+
+export default FooterContainer
