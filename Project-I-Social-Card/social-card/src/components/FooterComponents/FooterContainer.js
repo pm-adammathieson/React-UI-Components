@@ -19,7 +19,6 @@ class FooterContainer extends React.Component {
   }
 
   like = () => {
-    console.log('click')
     this.setState({
       like: +1
     })
