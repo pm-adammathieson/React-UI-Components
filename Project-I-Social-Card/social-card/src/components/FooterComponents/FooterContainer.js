@@ -8,22 +8,53 @@ import { faComment, faSyncAlt, faHeart, faEnvelope } from '@fortawesome/free-sol
 
 class FooterContainer extends React.Component {
   state = {
-    sync: '1',
-    like: '1'
+    sync: 0,
+    like: 0
   }
 
-  render() {
-    return (
+  rePost = () => {
+    this.setState({
+      sync: +1
+    })
+  }
+
+  like = () => {
+    console.log('click')
+    this.setState({
+      like: +1
+    })
+  }
+
+
+    
+    render() {
+      
+      return (
     <div className="foot-cont">
-        {/* <div className="inner-foot-cont">
-        <FontAwesomeIcon className="icon" icon={faComment} />
-        <FontAwesomeIcon icon={faSyncAlt} />
-        <div className="display-box">{this.state.sync}</div>
-        <FontAwesomeIcon className="icon" icon={faHeart} />
-        <div className="display-box">{this.state.like}</div>
-        <FontAwesomeIcon className="icon" icon={faEnvelope} /> */}
-        <i class="fas fa-comment"></i>
-      {/* </div> */}
+
+        <div className="inner-foot-cont">
+        <FontAwesomeIcon
+          id="icon-1"
+          className="icon"
+          icon={faComment}
+        />
+        <div className="count-box">
+          <FontAwesomeIcon 
+            icon={faSyncAlt}
+            onClick={this.rePost}
+          />
+          <span className="display-box">{this.state.sync}</span>
+        </div>
+        <div id="count-box-2" className="count-box">
+          <FontAwesomeIcon 
+            className="icon" 
+            icon={faHeart} 
+            onClick={this.like}
+          />
+          <span className="display-box">{this.state.like}</span>
+        </div>
+        <FontAwesomeIcon className="icon" icon={faEnvelope} /> 
+        </div>
     </div>
     )
   }

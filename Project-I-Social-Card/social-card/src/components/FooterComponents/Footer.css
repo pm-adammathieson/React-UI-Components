@@ -1,18 +1,29 @@
 
 .inner-foot-cont {
-    display: flex;
-    justify-content: space-between;
+    display: inline;
     float: right;
     width: 90%;
+    padding-top: 1em;
 }
 
 .icon {
-    /* padding: 1em 4em 1em 0; */
     font-size: 1.3rem;
 }
 
-.display-box {
-    border: 1px solid red;
-    max-width: 10px;
+#icon-1 {
+    padding-right: 3em;
+}
+
+.count-box {
     display: inline;
 }
+
+#count-box-2 {
+    padding-right: 2em;
+}
+
+.display-box {
+    padding-right: 2em;
+    padding-left: .75em;
+}
+
