@@ -1,0 +1,18 @@
+
+.inner-foot-cont {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    width: 90%;
+}
+
+.icon {
+    /* padding: 1em 4em 1em 0; */
+    font-size: 1.3rem;
+}
+
+.display-box {
+    border: 1px solid red;
+    max-width: 10px;
+    display: inline;
+}

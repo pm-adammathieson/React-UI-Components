@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+
+.container {
+    display: flex;
+}
+
+.img-container {
+    max-width: 10%;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+.header1 {
+    font-size: 1.1rem;
+}
+
+.header-banner {
+    display: flex;
+    align-items: baseline;
+}
+
+.items {
+    display: flex;
+    align-items: baseline;
+    padding-left: 1%;
+}
+
+.samething {
+    font-size: .9rem;
+    text-decoration: none;
+    color: #9d9ea0;
+    padding: 0 1% 0 1%;
+}
+
+.top-cont p {
+    margin-block-start: 0;
+}
+
