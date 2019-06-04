@@ -22,6 +22,8 @@ const App = () => {
       <NumberButton buttonStyle="white" text="1"/>
       <NumberButton buttonStyle="white" text="2"/>
       <NumberButton buttonStyle="white" text="3"/>
+      <NumberButton buttonStyle="red" text="&#43;"/>
+      <ActionButton buttonStyle="zero" text="0"/>
       <NumberButton buttonStyle="red" text="&#61;"/>
     </div>
   );
